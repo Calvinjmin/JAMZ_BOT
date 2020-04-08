@@ -20,4 +20,4 @@ client.on("message", msg => {
     msg.reply("Hello!")
   }
 })
-client.login("Njk3Mjk2NjI2Mzc2NTA3NDAy.Xo1QAA.FWuJjBI22ercABhN3Zekwg6LgOw")
+client.login(process.env.BOT_TOKEN)
