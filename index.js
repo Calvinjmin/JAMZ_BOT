@@ -1,4 +1,4 @@
-require("dotenv").config
+require("dotenv").config()
 const Discord = require("discord.js")
 const fs = require("fs")
 const client = new Discord.Client()
@@ -11,13 +11,4 @@ fs.readdir("./events/", (err, files) => {
   })
 })
 
-
-client.on("ready", () => {
-  console.log(`Logged in as ${client.user.tag}!`)
-})
-client.on("message", msg => {
-  if (msg.content === "jank") {
-    msg.reply("Hello!")
-  }
-})
 client.login(process.env.BOT_TOKEN)

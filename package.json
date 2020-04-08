@@ -1,15 +1,13 @@
 {
-  "name": "music-bot",
+  "name": "jamz_bot",
   "version": "1.0.0",
-  "description": "Test Discord Bot",
-  "main": "bot.js",
+  "description": "An all-purpose discord bot, used for testing",
   "author": "Calvin Min",
   "dependencies": {
     "discord.js": "^12.1.1",
     "dotenv": "^8.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
