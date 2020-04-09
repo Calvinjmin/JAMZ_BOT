@@ -2,7 +2,7 @@
 
 This bot is a simple example that is used for testing oper source code. It attempts to provide basic functionality to users on the Discord Application. 
 
-Link that played a major role in setting up a basic Discord Bot: https://thomlom.dev/create-a-discord-bot-under-15-minutes/
+Link that played a major role in setting up a JAMZ_Bot: https://thomlom.dev/create-a-discord-bot-under-15-minutes/
 
 **Current Functions**
 - !kick (username) - Kicks the given user from the guild
